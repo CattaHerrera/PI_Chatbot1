@@ -1,0 +1,32 @@
+0,BUENOS *,*,*,<set name="saludo"> <star/></set>,custom.aiml
+0,HOLA BUENOS *,*,*,<set name="saludo"> <star/></set>,custom.aiml
+0,HOLA BUENAS *,*,*,<set name="saludo"> <star/></set>,custom.aiml
+0,QUE TAL BUENOS *,*,*,<set name="saludo"> <star/></set>,custom.aiml
+0,QUÉ *,*,*,<set name="infochatbot"> <star/></set>,custom.aiml
+0,BUENAS *,*,*,¡Hola! Gracias por tu interés en contactarnos. Por favor#Comma#Newlineproporciona tu información para que podamos comunicarnos contigo lo antes posible.#Newline¿Cuál es su nombre?,custom.aiml
+0,QUE TAL *,*,*,¡Hola! Gracias por tu interés en contactarnos. Por favor#Comma#Newlineproporciona tu información para que podamos comunicarnos contigo lo antes posible.#Newline¿Cuál es su nombre?,custom.aiml
+0,NECESITO *,*,*,¡Hola! Gracias por tu interés en contactarnos. Por favor#Comma#Newlineproporciona tu información para que podamos comunicarnos contigo lo antes posible.#Newline¿Cuál es su nombre?,custom.aiml
+0,MI NOMBRE ES *,*,*,Mucho gusto#Comma <set name="nombre"> <star/></set>;#Newline          ahora proporciona tu número telefónico.,custom.aiml
+0,ME LLAMO *,*,*,Mucho gusto#Comma <set name="nombre"> <star/></set>;#Newline          ahora proporciona tu número telefónico.,custom.aiml
+0,YO SOY *,*,*,Mucho gusto#Comma <set name="nombre"> <star/></set>;#Newline          ahora proporciona tu número telefónico.,custom.aiml
+0,NOMBRE ES *,*,*,Mucho gusto#Comma <set name="nombre"> <star/></set>;#Newline          ahora proporciona tu número telefónico.,custom.aiml
+0,MI NÚMERO DE TELEFÓNO ES *,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,MI NUMERO ES *,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,MI NÚMERO ES *,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,MI TELEFÓNO ES *,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,EL NÚMERO ES*,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,EL TELEFÓNO ES *,*,*,Número telefónico: "<set name="telefono"> <star/> </set> guardado".#Newline            ahora proporciona tu correo electrónico.,custom.aiml
+0,MI CORREO ES *,*,*,Correo electrónico: "<set name="correo"> <star/> </set> guardado".#Newlineahora proporciona el motivo.,custom.aiml
+0,CORREO *,*,*,Correo electrónico: "<set name="correo"> <star/> </set> guardado".#Newlineahora proporciona el motivo.,custom.aiml
+0,EL CORREO *,*,*,Correo electrónico: "<set name="correo"> <star/> </set> guardado".#Newlineahora proporciona el motivo.,custom.aiml
+0,EL CORREO ES *,*,*,Correo electrónico: "<set name="correo"> <star/> </set> guardado".#Newlineahora proporciona el motivo.,custom.aiml
+0,EMAIL *,*,*,Correo electrónico: "<set name="correo"> <star/> </set> guardado".#Newlineahora proporciona el motivo.,custom.aiml
+0,EL MOTIVO ES *,*,*,Motivo: "<set name="motivo"> <star/> </set> guardado".#Newlinepara finalizar#Comma escribe tu mensaje detalladamente.,custom.aiml
+0,MI MOTIVO *,*,*,Motivo: "<set name="motivo"> <star/> </set> guardado".#Newlinepara finalizar#Comma escribe tu mensaje detalladamente.,custom.aiml
+0,ESTE ES EL MOTIVO *,*,*,Motivo: "<set name="motivo"> <star/> </set> guardado".#Newlinepara finalizar#Comma escribe tu mensaje detalladamente.,custom.aiml
+0,MOTIVO *,*,*,Motivo: "<set name="motivo"> <star/> </set> guardado".#Newlinepara finalizar#Comma escribe tu mensaje detalladamente.,custom.aiml
+0,LA RAZÓN ES *,*,*,Motivo: "<set name="motivo"> <star/> </set> guardado".#Newlinepara finalizar#Comma escribe tu mensaje detalladamente.,custom.aiml
+0,EL MENSAJE ES *,*,*,Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".#Newline            En un momento le informaremos sobre su caso.,custom.aiml
+0,ESTE ES EL MENSAJE *,*,*,Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".#Newline            En un momento le informaremos sobre su caso.,custom.aiml
+0,MENSAJE *,*,*,Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".#Newline            En un momento le informaremos sobre su caso.,custom.aiml
+0,MENSAJE ES *,*,*,Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".#Newline            En un momento le informaremos sobre su caso.,custom.aiml

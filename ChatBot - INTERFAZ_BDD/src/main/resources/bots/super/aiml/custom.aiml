@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: custom.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 25, 2023 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2023 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>BUENOS *</pattern>
+<template><set name="saludo"> <star/></set></template>
+</category>
+<category><pattern>HOLA BUENOS *</pattern>
+<template><set name="saludo"> <star/></set></template>
+</category>
+<category><pattern>HOLA BUENAS *</pattern>
+<template><set name="saludo"> <star/></set></template>
+</category>
+<category><pattern>QUE TAL BUENOS *</pattern>
+<template><set name="saludo"> <star/></set></template>
+</category>
+<category><pattern>QUÉ *</pattern>
+<template><set name="infochatbot"> <star/></set></template>
+</category>
+<category><pattern>BUENAS *</pattern>
+<template>¡Hola! Gracias por tu interés en contactarnos. Por favor,
+proporciona tu información para que podamos comunicarnos contigo lo antes posible.
+¿Cuál es su nombre?</template>
+</category>
+<category><pattern>QUE TAL *</pattern>
+<template>¡Hola! Gracias por tu interés en contactarnos. Por favor,
+proporciona tu información para que podamos comunicarnos contigo lo antes posible.
+¿Cuál es su nombre?</template>
+</category>
+<category><pattern>NECESITO *</pattern>
+<template>¡Hola! Gracias por tu interés en contactarnos. Por favor,
+proporciona tu información para que podamos comunicarnos contigo lo antes posible.
+¿Cuál es su nombre?</template>
+</category>
+<category><pattern>MI NOMBRE ES *</pattern>
+<template>Mucho gusto, <set name="nombre"> <star/></set>;
+          ahora proporciona tu número telefónico.</template>
+</category>
+<category><pattern>ME LLAMO *</pattern>
+<template>Mucho gusto, <set name="nombre"> <star/></set>;
+          ahora proporciona tu número telefónico.</template>
+</category>
+<category><pattern>YO SOY *</pattern>
+<template>Mucho gusto, <set name="nombre"> <star/></set>;
+          ahora proporciona tu número telefónico.</template>
+</category>
+<category><pattern>NOMBRE ES *</pattern>
+<template>Mucho gusto, <set name="nombre"> <star/></set>;
+          ahora proporciona tu número telefónico.</template>
+</category>
+<category><pattern>MI NÚMERO DE TELEFÓNO ES *</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>MI NUMERO ES *</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>MI NÚMERO ES *</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>MI TELEFÓNO ES *</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>EL NÚMERO ES*</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>EL TELEFÓNO ES *</pattern>
+<template>Número telefónico: "<set name="telefono"> <star/> </set> guardado".
+            ahora proporciona tu correo electrónico.</template>
+</category>
+<category><pattern>MI CORREO ES *</pattern>
+<template>Correo electrónico: "<set name="correo"> <star/> </set> guardado".
+ahora proporciona el motivo.</template>
+</category>
+<category><pattern>CORREO *</pattern>
+<template>Correo electrónico: "<set name="correo"> <star/> </set> guardado".
+ahora proporciona el motivo.</template>
+</category>
+<category><pattern>EL CORREO *</pattern>
+<template>Correo electrónico: "<set name="correo"> <star/> </set> guardado".
+ahora proporciona el motivo.</template>
+</category>
+<category><pattern>EL CORREO ES *</pattern>
+<template>Correo electrónico: "<set name="correo"> <star/> </set> guardado".
+ahora proporciona el motivo.</template>
+</category>
+<category><pattern>EMAIL *</pattern>
+<template>Correo electrónico: "<set name="correo"> <star/> </set> guardado".
+ahora proporciona el motivo.</template>
+</category>
+<category><pattern>EL MOTIVO ES *</pattern>
+<template>Motivo: "<set name="motivo"> <star/> </set> guardado".
+para finalizar, escribe tu mensaje detalladamente.</template>
+</category>
+<category><pattern>MI MOTIVO *</pattern>
+<template>Motivo: "<set name="motivo"> <star/> </set> guardado".
+para finalizar, escribe tu mensaje detalladamente.</template>
+</category>
+<category><pattern>ESTE ES EL MOTIVO *</pattern>
+<template>Motivo: "<set name="motivo"> <star/> </set> guardado".
+para finalizar, escribe tu mensaje detalladamente.</template>
+</category>
+<category><pattern>MOTIVO *</pattern>
+<template>Motivo: "<set name="motivo"> <star/> </set> guardado".
+para finalizar, escribe tu mensaje detalladamente.</template>
+</category>
+<category><pattern>LA RAZÓN ES *</pattern>
+<template>Motivo: "<set name="motivo"> <star/> </set> guardado".
+para finalizar, escribe tu mensaje detalladamente.</template>
+</category>
+<category><pattern>EL MENSAJE ES *</pattern>
+<template>Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".
+            En un momento le informaremos sobre su caso.</template>
+</category>
+<category><pattern>ESTE ES EL MENSAJE *</pattern>
+<template>Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".
+            En un momento le informaremos sobre su caso.</template>
+</category>
+<category><pattern>MENSAJE *</pattern>
+<template>Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".
+            En un momento le informaremos sobre su caso.</template>
+</category>
+<category><pattern>MENSAJE ES *</pattern>
+<template>Gracias por proporcionarnos la información: "<set name="mensaje"> <star/> </set>se ha guardado correctamente".
+            En un momento le informaremos sobre su caso.</template>
+</category>
+</aiml>
